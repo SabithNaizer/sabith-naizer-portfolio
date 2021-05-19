@@ -1130,3 +1130,19 @@ section .container {
   color: #fff;
 }
 
+/*adjusting the length of the slide bar*/
+::-webkit-scrollbar {
+  width: 15px;
+}
+
+/*adjusting the track of the scrollbar*/
+::-webkit-scrollbar-track {
+      background-color: #2f2f2f; 
+    }
+
+/*styling the slidebar*/
+::-webkit-scrollbar-thumb {
+        background-color: #18d26e; 
+        border-radius: 10px;
+}
+
