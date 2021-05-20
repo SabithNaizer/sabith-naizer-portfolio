@@ -1121,7 +1121,7 @@ section .container {
 }
 
 .credits a {
-  color: #000;
+  color: white;
   font-weight: bold;
   /* color: #18d26e; */
   transition: 0.3s;
@@ -1129,7 +1129,7 @@ section .container {
 
 .credits a:hover {
   
-  color: #fff;
+  color: #18d26e;
 }
 
 /*adjusting the length of the slide bar*/
