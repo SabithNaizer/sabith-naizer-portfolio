@@ -1103,6 +1103,7 @@ section .container {
     background: rgba(0, 0, 0, 0.2);
     position:absolute;
     bottom:0;
+    color:white;
   }
   .contact .info-box{
     background-color: transparent;
@@ -1115,6 +1116,10 @@ section .container {
     font-size:15px;
     margin-left: 15px;
   }
+  .credits a:hover {
+    color: #18d26e;
+  }
+  
   .contact p{
     color: #ffffff;
   }
@@ -1128,7 +1133,6 @@ section .container {
 }
 
 .credits a:hover {
-  
   color: #18d26e;
 }
 
