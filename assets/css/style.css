@@ -29,13 +29,6 @@ body::before {
   
 }
 
-@media (max-width: 748px) {
-  body ::before{
-    
-    background: none;
-   
-  }
-}
 
 a {
   color: #18d26e;
@@ -132,7 +125,10 @@ h1, h2, h3, h4, h5, h6 {
     font-size: 30px;
   }
   
-  
+  body::before{
+    background: #040404 url("../img/pro1.jpeg") top right no-repeat;
+    background-size: cover;  
+  }
   
   #header h1 a{
     margin-top:50px;
