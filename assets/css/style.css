@@ -31,6 +31,7 @@ body::before {
 
 
 a {
+  
   color: #18d26e;
   text-decoration: none;
 }
@@ -1120,11 +1121,14 @@ section .container {
 }
 
 .credits a {
-  color: #18d26e;
+  color: #000;
+  font-weight: bold;
+  /* color: #18d26e; */
   transition: 0.3s;
 }
 
 .credits a:hover {
+  
   color: #fff;
 }
 
